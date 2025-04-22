@@ -6,6 +6,10 @@ public class BallCounter : MonoBehaviour
     [Header("UI Reference")]
     public TextMeshProUGUI counterText;
 
+    [Header("Game Management")]
+    public GameManager gameManager; // ÑÈØ ãÚ GameManager
+    public int totalBalls = 5; // ÚÏÏ ÇáßÑÇÊ ÇáãØáæÈ äÞáåÇ
+
     private int count = 0;
 
     private void Start()
@@ -19,6 +23,7 @@ public class BallCounter : MonoBehaviour
         {
             count++;
             UpdateCounterText();
+            CheckWinCondition();
         }
     }
 
@@ -35,11 +40,19 @@ public class BallCounter : MonoBehaviour
     {
         if (counterText != null)
         {
-            counterText.text = "Number of balls in the box: "+count.ToString();
+            counterText.text = "Number of balls in the box: " + count.ToString();
         }
         else
         {
             Debug.LogWarning("Counter Text not assigned!");
+        }
+    }
+
+    private void CheckWinCondition()
+    {
+        if (count >= totalBalls)
+        {
+            gameManager.WinGame();
         }
     }
 }
