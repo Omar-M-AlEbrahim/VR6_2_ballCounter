@@ -1,22 +1,28 @@
-# VR6_2 Ball Counter Project
+# Project Overview
 
-هذا المشروع عبارة عن لعبة VR يتم فيها التقاط الكرات باستخدام اليدين وتتبع عدد الكرات الملتقطة.
+This project demonstrates a virtual reality ball counter system.
 
 ---
 
-## بعض لقطات من اللعبة:
+## 1. Loss  
+![Loss](images/loss.png)
 
-### الفوز:
-![الربح](Images/الربح.png)
+---
 
-### الخسارة:
-![الخسارة](Images/الخسارة.png)
+## 2. Profit  
+![Profit](images/profit.png)
 
-### توضيح عدد الكرات:
-![توضيح عدد الكرات](Images/توضيح عدد الكرات.png)
+---
 
-### حمل الكرة باليد اليسرى:
-![حمل الكرة يد يسرى](Images/حمل الكرة يد يسرى.png)
+## 3. Explaining Ball Count  
+![Explain Ball Count](images/explain_ball_count.png)
 
-### حمل الكرة باليد اليمنى:
-![حمل الكرة](Images/حمل الكرة.png)
+---
+
+## 4. Carry the Ball  
+![Carry the Ball](images/carry_the_ball.png)
+
+---
+
+## 5. Carry the Ball with Left Hand  
+![Carry with Left Hand](images/carry_with_left_hand.png)
